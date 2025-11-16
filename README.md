@@ -108,3 +108,5 @@ Taking all that into consideration, my conclusions were that:
 That is not to say that instancing isn't valuable. The true strength of instancing is probably for instancing actors (direct.actor.Actor.Actor), as it is taught in the manual, scenario in which it spares the machine needless recalculations related to the animation of the geometry.
 
 This is only a very simple experiment and I don't consider myself an experienced Panda3D user. So, please, take all of this with a grain of salt and, preferably, try these scenarios A, A1, B, B1 for yourself in your own machine as well and draw your own conclusions. If you have valuable feedback or anything else relevant to add, I'll be glad to review and accept PRs, but keep in mind this repository is meant as a one-off experiment, not a project I intend to maintain indefinitely.
+
+I also created a [post on Panda3D's forum](https://discourse.panda3d.org/t/experiment-comparing-memory-usage-when-reusing-procedurally-generated-models/31381) for those willing to discuss this experiment and its results further.
