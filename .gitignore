@@ -1,0 +1,28 @@
+### pycache
+__pycache__/
+
+### if you cloned this repo and plan to make pull
+### requests, please, don't add files/folders related
+### to your personal workflow/preferred tooling.
+###
+### those should be added either on .git/info/exclude,
+### which is specific to each local repository, or
+### to a .gitignore file on your user folder, which is
+### considered for all your repositories if you set the
+### "core.excludesfile" config to its path like this:
+### git config --global core.excludesFile '~/.gitignore'
+###
+### for instance, if you use VIM, you may want to add the
+### rule below to *your* .gitignore file, like I did to
+### mine, since I use VIM:
+###
+### *.swp
+###
+### but I'd never add it here, since it is something
+### related to my own workflow.
+###
+### the "__pycache__/" rule at the top was added because
+### everyone working in this project benefits from
+### ignoring such folders, since it is not tied to a
+### particular workflow or tool, but rather Python
+### projects in general
